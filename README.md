@@ -11,6 +11,7 @@ O sistema permite visualizar as sessões ativas bem como criar sessões, editá-
 ##### ->Para rodar o servidor do PHP utilizamos o [XAMPP](https://www.apachefriends.org/pt_br/index.html), é necessário incluir os arquivos deste projeto na pasta htdocs do XAMPP (É importante abrir o XAMPP e ligar o Apache, caso contrário o PHP nao funciona);
 ##### ->É necessário instalar o [Composer](https://getcomposer.org/download/) que é o gerenciador de dependências do PHP;
 ##### ->É necessário alterar o arquivo php.ini, liberando as extensões mbstring e sodium (para libera-lás apenas precisa remover o ponto e virgula que tem antes do nome de cada uma no arquivo php.ini);
+##### ->Caso você tente abrir o php.ini pelo terminal e apareça um erro, é necessário incluir o PHP no Path de ambientes do sistema; Verificar [aqui](https://www.php.net/manual/pt_BR/faq.installation.php) em 'Como eu adiciono meu diretório PHP ao PATH do Windows?'
 ##### ->Para o [Firebase](firebase.google.com), disponibilizamos o arquivo JSON (cinema-json) do banco, é necessário criar um RealTime Database no Firebase e importar este arquivo JSON, desta forma você terá a estrutura deste banco;
 ##### ->O arquivo dbcon.php contém o link de conexão do banco de dados, é importante você substituir para o link que foi gerado quando você criou o seu banco no Firebase, essa informação fica logo acima da estrutura de dados;
 ##### ->Após estas etapas feitas é necessário digitar na barra de navegação: localhost/(nome da pasta do projeto no htdocs);
